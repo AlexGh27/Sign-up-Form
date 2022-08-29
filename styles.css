@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    --background-gray: rgb(243, 243, 243);
+}
+
+
+
 body {
     display: flex;
     flex-direction: row;
@@ -24,17 +31,25 @@ img {
 .description {
     height: 350px;
     width: auto;
-    background-color: blue;
+    background-color: var(--background-gray);
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 150px;
+    
 }
 
 .forms {
     height: 350px;
     width: auto;
-    background-color: red;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 .account {
     height: 350px;
     width: auto;
-    background-color: green;
+    background-color: var(--background-gray);
 }
