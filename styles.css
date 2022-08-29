@@ -7,14 +7,34 @@ body {
 }
 
 img {
-    height: 1000px;
+    height: 1050px;
     width: 30%;
     margin-left: 0px;
     padding: 0px;
 }
 
 .content {
-    height: 1000px;
+    height: 1050px;
     width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.description {
+    height: 350px;
+    width: auto;
+    background-color: blue;
+}
+
+.forms {
+    height: 350px;
+    width: auto;
+    background-color: red;
+}
+
+.account {
+    height: 350px;
+    width: auto;
+    background-color: green;
 }
