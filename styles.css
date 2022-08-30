@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     --background-gray: rgb(243, 243, 243);
+    --button-color: #596D48;
 }
 
 
@@ -25,7 +26,7 @@ img {
     width: 1400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .description {
@@ -33,7 +34,7 @@ img {
     width: auto;
     background-color: var(--background-gray);
     font-size: 25px;
-    padding-left: 100px;
+    padding-left: 70px;
     padding-top: 150px;
     
 }
@@ -45,8 +46,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 100px;
-    gap: 40px;
+    padding-left: 70px;
+    gap: 30px;
 }
 
 .account {
@@ -66,10 +67,14 @@ img {
 input {
     display: block;
     border-color: #E5E7EB;
+    border-radius: 5px;
+    height: 1.5em;
+    width: 300px;
+    font-size: 22px;
 }
 
 label {
-    color: gray;
+    color: rgb(73, 73, 73);
 }
 #do {
     font-size: 25px;
@@ -79,7 +84,28 @@ label {
 #rows > div {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    
+    gap: 35px;
+}
 
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+#submit {
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+    background-color: var(--button-color); 
+    color: white;
+    font-weight:bold;
+    border-radius: 10px;
+}
+
+#already {
+    font-size: 18px;
+    
 }
