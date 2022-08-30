@@ -38,18 +38,34 @@ img {
     
 }
 
-.forms {
+.form {
     height: 350px;
     width: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    padding-left: 100px;
 }
 
 .account {
     height: 350px;
     width: auto;
     background-color: var(--background-gray);
+}
+
+#rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    
+}
+
+input {
+    display: block;
+}
+
+#do {
+    font-size: 25px;
 }
