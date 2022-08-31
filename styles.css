@@ -150,14 +150,22 @@ button:hover {
     font-family: 'NorseBold';
     font-size: 140px;
     padding-top: 20px;
-    padding-left: 200px;
+    padding-left: 230px;
 }
 
 #odin {
     position: absolute;
-    margin-left: 80px;
+    margin-left: 110px;
     margin-top: 210px;
     width: 120px;
     height: 160px;
+}
+
+#credit {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 900px;
+    color: white;
+    font-size: 20px;
 
 }
