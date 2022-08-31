@@ -107,5 +107,23 @@ label {
 
 #already {
     font-size: 18px;
+}
+
+a {
+    color: var(--button-color);
+}
+
+.description {
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0 0 3px;
     
+}
+
+button:hover {
+    box-shadow: 10px;;
 }

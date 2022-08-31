@@ -23,19 +23,19 @@
             <form id = "rows">
                 <div class="first-column">
                     <div>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id = "first-name">
+                        <label for="first_name">FIRST NAME</label>
+                        <input required type="text" id = "first_name" name = "first_name">
                     </div>
                     
 
                     <div>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id = "email">
+                        <label for="user_email">EMAIL</label>
+                        <input required type="email" id = "user_email" name = "email">
                     </div>
 
                     <div>
-                        <label for="pass">PASSWORD</label>
-                        <input type="password" id = "pass">
+                        <label for="user_password">PASSWORD</label>
+                        <input required type="password" id = "user_password">
                     </div>
                     
 
@@ -44,18 +44,18 @@
                 <div class="second-column">
 
                     <div>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id = "last-name">
+                        <label for="last_name">LAST NAME</label>
+                        <input required type="text" id = "last_name" name = "last_name">
                     </div>
 
                     <div>
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="number" id = "phone">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input required type="tel" id = "phone_number" name = "phone_number" minlength="10" maxlength="10">
                     </div>
 
                     <div>
-                        <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id = "confirm">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input required type="password" id = "confirm_password" name = "confirm_password" minlength="8">
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@
         </div>
 
         <div class="account">
-            <button id="submit">Create Account</button>
+            <button id="submit" type = "submit">Create Account</button>
             <div id = "already">Already have an account? <a>Log in</a></div>
         </div>
     
